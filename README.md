@@ -100,15 +100,6 @@
 </p>
 
 
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Aayush3238&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8" />
-</p>
-
-
-
 # 📈 Contribution Graph
 
 <p align="center">
