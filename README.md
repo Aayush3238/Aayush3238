@@ -45,6 +45,10 @@
     <img src="https://cdn.simpleicons.org/leetcode" height="50" />
   </a>
 
+  <a href="https://www.geeksforgeeks.org/profile/aayushkusn61">
+    <img src="https://cdn.simpleicons.org/geeksforgeeks" height="50" />
+  </a>
+
   <a href="https://drive.google.com/file/d/1Ip4gCA7KP4E77PxuVwQdsXBmxl3OFeZu/view?usp=sharing">
     <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" height="50" />
   </a>
