@@ -87,13 +87,20 @@
 
 
 
+
 # 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Aayush3238&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Aayush3238&show_icons=true&theme=tokyonight&hide_border=true" />
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aayush3238&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Aayush3238&theme=tokyonight&hide_border=true" />
 </p>
+
+<p align="center">
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aayush3238&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+
 
 
 
@@ -138,5 +145,4 @@
 </p>
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/
