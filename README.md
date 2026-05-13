@@ -101,16 +101,6 @@
 </p>
 
 
-
-
-
-# 🔥 GitHub Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Aayush3238&theme=tokyonight&hide_border=true&border_radius=12" />
-</p>
-
-
 # 📈 Contribution Graph
 
 <p align="center">
@@ -145,4 +135,4 @@
 </p>
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
