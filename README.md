@@ -106,15 +106,17 @@ Currently exploring:
   <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma" />
 </p>
 
-
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Aayush3238&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aayush3238&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=FFFFFF" />
 
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aayush3238&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=Aayush3238&theme=tokyonight&hide_border=true&background=0D1117&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
 </p>
 
+<p align="center">
+  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aayush3238&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=FFFFFF" />
+</p>
 
 <h2 align="center">📈 Contribution Graph</h2>
 
@@ -123,10 +125,10 @@ Currently exploring:
 </p>
 
 
-<h2 align="center">🐍 Contribution Snake</h2>
+<h2 align="center">📊 Contribution 3D View</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/output/ocean.gif" alt="Snake animation"/>
+  <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Graph" />
 </p>
 
 
@@ -147,6 +149,5 @@ Currently exploring:
 
 </p>
 
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
-```
+``
