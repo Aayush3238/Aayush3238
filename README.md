@@ -5,21 +5,12 @@
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;MERN+Stack+Learner;DSA+Enthusiast;Exploring+AIML+and+GenAI;Building+SaaS+Projects+and+Web+Apps" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=850&lines=Full+Stack+Developer;MERN+Stack+Learner;Exploring+AIML+and+GenAI;Learning+System+Design;Open+Source+%26+Internship+Focused" alt="Typing SVG" />
 </p>
 
-<!-- ⚡ Premium Addition: Side-by-side GIF and Dynamic LeetCode/WakaTime metrics ⚡ -->
-<table border="0" align="center">
-  <tr>
-    <td align="center">
-      <img src="https://user-images.githubusercontent.com/74038190/212897597-1d7b7c5b-4d2b-4f4d-8e2d-6f0d5b7d6c6f.gif" width="350">
-    </td>
-    <td align="center">
-       <!-- ⚡ LeetCode Stat Card - Crucial for Interships ⚡ -->
-       <img src="https://github-readme-stats.vercel.app/api?username=Aayush3238&show_icons=true&theme=tokyonight&hide_border=true" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/213760697-1dc03683-ba49-44a2-985e-95fd5ec22d3f.gif" width="450">
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Aayush3238&label=Profile%20Views&color=0e75b6&style=flat-square" alt="profile views" />
@@ -28,32 +19,54 @@
 
 <h2 align="center">🚀 About Me</h2>
 
-- 🎓 **B.Tech Student** passionate about Full Stack Engineering
-- 💻 Deep diving into **MERN Stack** & **System Design**
-- 🧠 Actively exploring **AIML** & **Generative AI** integrations
-- 🏆 Actively seeking **Software Development Internship** Opportunities
-- ⚡ Building scalable products like **SaaS-Atlas** and **HomeHive**
+- 🎓 B.Tech Student passionate about Software Development
+- 💻 Learning Full Stack Web Development & System Design
+- 🧠 Exploring AIML & Generative AI
+- 🏆 Preparing for Hackathons & Internship Opportunities
+- ⚡ Building scalable full stack applications and real-world projects
 
 
 <h2 align="center">💼 Experience</h2>
 
 ### 🚀 Software Developer Intern — Nexera
 
-- Developed and optimized production-ready Full Stack applications using **Next.js** and **PostgreSQL**.
-- Implemented core features and resolved critical bugs in a collaborative agile environment.
-- Maintained code quality via rigorous **Git workflow**, code reviews, and rebase strategies.
+- Developed and optimized Full Stack applications using **Next.js**, **Node.js**, and **PostgreSQL**
+- Worked on production-level features, debugging, and backend integrations
+- Collaborated using modern Git/GitHub workflows including rebasing & PR reviews
+- Improved application scalability and development workflow efficiency
 
 
 <h2 align="center">🚀 Featured Projects</h2>
 
-<!-- ⚡ Enhancement: Projects are now hyperlinked ⚡ -->
-### 🏠 [HomeHive](https://github.com/Aayush3238/HomeHive)
-- End-to-end Property Management SaaS with Secure User Authentication.
-- Dynamic Property Rendering, Image Upload Support, and Secure Routing.
+### 🏠 HomeHive
 
-### 🤖 [AIML & GenAI Exploration](https://github.com/Aayush3238/) <!-- Insert specific repo link here -->
-- Developing AI-powered web integrations and intelligent application workflows.
-- Implementing Machine Learning fundamentals and Generative AI concepts.
+A full stack property rental platform focused on seamless property listing and management experiences.
+
+#### 🔧 Tech Stack
+- React.js
+- Tailwind CSS
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+
+#### ✨ Features
+- User Authentication & Authorization
+- Property Listing & Management
+- Dynamic Property Rendering
+- Responsive Modern UI
+- Image Upload Support
+- Secure Routing & Protected Pages
+- Buyer request & meeting scheduling workflow
+
+
+### 🤖 AIML & Generative AI Exploration
+
+Currently exploring:
+- Machine Learning fundamentals
+- Generative AI concepts
+- AI-powered web integrations
+- Intelligent application workflows
 
 
 <h2 align="center">🌐 Connect With Me</h2>
@@ -62,15 +75,19 @@
   <a href="https://github.com/Aayush3238" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" height="50" />
   </a>
+
   <a href="https://www.linkedin.com/in/aayush-kumar-0b17a1316/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" height="50" />
   </a>
+
   <a href="https://leetcode.com/u/kumar_aayussh/" target="_blank">
     <img src="https://cdn.simpleicons.org/leetcode" height="50" />
   </a>
+
   <a href="https://www.geeksforgeeks.org/profile/aayushkusn61" target="_blank">
     <img src="https://cdn.simpleicons.org/geeksforgeeks" height="50" />
   </a>
+
   <a href="https://drive.google.com/file/d/1Ip4gCA7KP4E77PxuVwQdsXBmxl3OFeZu/view?usp=sharing" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" height="50" />
   </a>
@@ -80,61 +97,57 @@
 <h2 align="center">🛠️ Tech Stack</h2>
 
 ### 👨‍💻 Languages
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,java,js,python" />
 </p>
 
 ### 🎨 Frontend Development
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,tailwind,react,nextjs" />
 </p>
 
 ### ⚙️ Backend Development
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgresql" />
 </p>
 
 ### 🧰 Tools & Platforms
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma" />
 </p>
 
 
-<!-- ⚡ COOL REPLACEMENT: THE TROPHY HALL ⚡ -->
-<h2 align="center">🏆 GitHub Trophy Hall</h2>
+<h2 align="center">📈 Contribution Activity</h2>
+
 <p align="center">
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=Aayush3238&theme=tokyonight&no-bg=true&margin-w=10&margin-h=10&no-frame=true&column=7" alt="Aayush's GitHub Trophies" />
-</a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aayush3238&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF" width="95%"/>
 </p>
 
-<h2 align="center">📊 Top Languages</h2>
 <p align="center">
-  <img width="90%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aayush3238&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2"/>
 </p>
 
-
-<h2 align="center">📈 Contribution Graph</h2>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aayush3238&theme=tokyo-night&hide_border=true" width="95%"/>
-</p>
 
 
 <h2 align="center">💡 Current Goals</h2>
 
-- 🚀 Crack Internship Opportunities
-- 🧠 Improve DSA & Problem Solving
+- 🚀 Crack Software Development Internship Opportunities
+- 🧠 Improve DSA & Problem Solving Skills
 - 🤖 Learn AIML & Generative AI
 - 🌍 Contribute to Open Source
 - ⚡ Build scalable production-ready applications
 
 
 <h2 align="center">✨ Fun Quote</h2>
+
 <p align="center">
-    
+
 > “First, solve the problem. Then, write the code.”
 
 </p>
-
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
