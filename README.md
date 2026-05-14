@@ -121,6 +121,8 @@ Currently exploring:
 </p>
 
 
+
+
 <h2 align="center">📈 Contribution Activity</h2>
 
 <p align="center">
@@ -131,7 +133,11 @@ Currently exploring:
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2"/>
 </p>
 
+<h2 align="center">📅 Contribution Calendar</h2>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/github-metrics.svg" width="95%" />
+</p>
 
 <h2 align="center">💡 Current Goals</h2>
 
