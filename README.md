@@ -1,159 +1,127 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=12,20,24,30&text=Aayush%20Kumar&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20MERN%20Developer%20%7C%20DSA%20Enthusiast&descSize=18&descAlignY=55" width="100%" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/assets/hero.svg" alt="Aayush Kumar — Full Stack Developer" width="100%" />
+</div>
 
-<h3 align="center">
-  Building scalable web apps • Learning AIML • Exploring Generative AI
-</h3>
+<h2 align="center">About</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=850&lines=Full+Stack+Developer;MERN+Stack+Learner;Exploring+AIML+and+GenAI;Learning+System+Design;Open+Source+%26+Internship+Focused" alt="Typing SVG" />
+  Full Stack Developer building scalable web applications with the MERN stack and Next.js.
+  I care about backend engineering, distributed systems, API design and writing software that
+  stays reliable under failure — transactional outboxes, idempotency, caching and careful
+  concurrency handling are the problems I enjoy most.
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213760697-1dc03683-ba49-44a2-985e-95fd5ec22d3f.gif" width="450">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,mongodb,postgresql,redis,tailwind" alt="Tech stack" />
 </p>
+
+<h2 align="center">Experience</h2>
+
+<table align="center">
+  <tr>
+    <td>
+      <b>Software Developer Intern</b> &nbsp;·&nbsp; Nexera &nbsp;·&nbsp; Remote &nbsp;·&nbsp; Feb 2026 – Present
+      <ul>
+        <li>Developed a scalable full-stack learning platform with React.js, Next.js, Node.js, Express.js and PostgreSQL.</li>
+        <li>Implemented secure Google OAuth authentication with session management for seamless user login and access control.</li>
+        <li>Built backend APIs and frontend workflows for the course doubt management system connecting students and mentors.</li>
+        <li>Added Redis caching for the active student count, cutting repeated database queries and improving response times.</li>
+        <li>Shipped responsive UI components and admin functionality for platform content and user operations.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<h2 align="center">Featured Projects</h2>
+
+<div align="center">
+  <a href="https://github.com/Aayush3238/EventRelay">
+    <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/assets/project-eventrelay.svg" alt="EventRelay" width="49%" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Aayush3238/PixelFlow">
+    <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/assets/project-pixelflow.svg" alt="PixelFlow" width="49%" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://event-relay-brown.vercel.app"><img src="https://img.shields.io/badge/Live-EventRelay-00F7FF?style=flat-square&labelColor=0D1117" alt="EventRelay live" /></a>
+  &nbsp;
+  <a href="https://pixel-flow-ashy.vercel.app/dashboard"><img src="https://img.shields.io/badge/Live-PixelFlow-A855F7?style=flat-square&labelColor=0D1117" alt="PixelFlow live" /></a>
+</div>
+
+<h2 align="center">Now Learning</h2>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/assets/learning-ticker.svg" alt="Exploring Generative AI and Agentic AI" width="100%" />
+</div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Aayush3238&label=Profile%20Views&color=0e75b6&style=flat-square" alt="profile views" />
+  Moving beyond classic web development into <b>Generative AI</b> and <b>Agentic AI</b> —
+  LLM orchestration, tool use, RAG pipelines and agents that actually do work.
 </p>
 
+<h2 align="center">Tech Stack</h2>
 
-<h2 align="center">🚀 About Me</h2>
+<table align="center">
+  <tr>
+    <td align="center"><b>Languages</b></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=cpp,java,js,python,sql" alt="Languages" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=html,css,tailwind,react,nextjs" alt="Frontend" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend</b></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,redis" alt="Backend" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Tools</b></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma" alt="Tools" /></td>
+  </tr>
+</table>
 
-- 🎓 B.Tech Student passionate about Software Development
-- 💻 Learning Full Stack Web Development & System Design
-- 🧠 Exploring AIML & Generative AI
-- 🏆 Preparing for Hackathons & Internship Opportunities
-- ⚡ Building scalable full stack applications and real-world projects
-
-
-<h2 align="center">💼 Experience</h2>
-
-### 🚀 Software Developer Intern — Nexera
-
-- Developed and optimized Full Stack applications using **Next.js**, **Node.js**, and **PostgreSQL**
-- Worked on production-level features, debugging, and backend integrations
-- Collaborated using modern Git/GitHub workflows including rebasing & PR reviews
-- Improved application scalability and development workflow efficiency
-
-
-<h2 align="center">🚀 Featured Projects</h2>
-
-### 🏠 HomeHive
-
-A full stack property rental platform focused on seamless property listing and management experiences.
-
-#### 🔧 Tech Stack
-- React.js
-- Tailwind CSS
-- Node.js
-- Express.js
-- MongoDB
-- JWT Authentication
-
-#### ✨ Features
-- User Authentication & Authorization
-- Property Listing & Management
-- Dynamic Property Rendering
-- Responsive Modern UI
-- Image Upload Support
-- Secure Routing & Protected Pages
-- Buyer request & meeting scheduling workflow
-
-
-### 🤖 AIML & Generative AI Exploration
-
-Currently exploring:
-- Machine Learning fundamentals
-- Generative AI concepts
-- AI-powered web integrations
-- Intelligent application workflows
-
-
-<h2 align="center">🌐 Connect With Me</h2>
+<h2 align="center">Connect</h2>
 
 <p align="center">
   <a href="https://github.com/Aayush3238" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" height="50" />
+    <img src="https://cdn.simpleicons.org/github/E6EDF3" height="38" alt="GitHub" />
   </a>
-
+  &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/aayush-kumar-0b17a1316/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="50" />
+    <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/assets/linkedin.svg" height="38" alt="LinkedIn" />
   </a>
-
+  &nbsp;&nbsp;
   <a href="https://leetcode.com/u/kumar_aayussh/" target="_blank">
-    <img src="https://cdn.simpleicons.org/leetcode" height="50" />
+    <img src="https://cdn.simpleicons.org/leetcode/FFA116" height="38" alt="LeetCode" />
   </a>
-
+  &nbsp;&nbsp;
   <a href="https://www.geeksforgeeks.org/profile/aayushkusn61" target="_blank">
-    <img src="https://cdn.simpleicons.org/geeksforgeeks" height="50" />
+    <img src="https://cdn.simpleicons.org/geeksforgeeks/2F8D46" height="38" alt="GeeksforGeeks" />
   </a>
-
+  &nbsp;&nbsp;
+  <a href="mailto:aayushkumar3238@gmail.com" target="_blank">
+    <img src="https://cdn.simpleicons.org/gmail/EA4335" height="38" alt="Email" />
+  </a>
+  &nbsp;&nbsp;
   <a href="https://drive.google.com/file/d/1Ip4gCA7KP4E77PxuVwQdsXBmxl3OFeZu/view?usp=sharing" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" height="50" />
+    <img src="https://img.shields.io/badge/Resume-Download-E6EDF3?style=flat-square&logo=googledrive&logoColor=white&labelColor=0D1117" height="38" alt="Resume" />
   </a>
 </p>
 
-
-<h2 align="center">🛠️ Tech Stack</h2>
-
-### 👨‍💻 Languages
+<h2 align="center">Contribution Activity</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,js,python" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aayush3238&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF" width="95%" alt="Activity graph" />
 </p>
 
-### 🎨 Frontend Development
+<h2 align="center">Contribution Calendar</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,react,nextjs" />
+  <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/github-metrics.svg" width="95%" alt="GitHub metrics" />
 </p>
 
-### ⚙️ Backend Development
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgresql" />
-</p>
-
-### 🧰 Tools & Platforms
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma" />
-</p>
-
-
-
-
-<h2 align="center">📈 Contribution Activity</h2>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aayush3238&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF" width="95%"/>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2"/>
-</p>
-
-<h2 align="center">📅 Contribution Calendar</h2>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/github-metrics.svg" width="95%" />
-</p>
-
-<h2 align="center">💡 Current Goals</h2>
-
-- 🚀 Crack Software Development Internship Opportunities
-- 🧠 Improve DSA & Problem Solving Skills
-- 🤖 Learn AIML & Generative AI
-- 🌍 Contribute to Open Source
-- ⚡ Build scalable production-ready applications
-
-
-<h2 align="center">✨ Fun Quote</h2>
-
-<p align="center">
-
-> “First, solve the problem. Then, write the code.”
-
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/assets/footer.svg" alt="Always learning, always building" width="100%" />
+</div>

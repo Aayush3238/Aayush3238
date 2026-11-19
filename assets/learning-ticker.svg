@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Currently learning Generative AI and Agentic AI">
+  <defs>
+    <linearGradient id="tBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.5" stop-color="#12171F"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <linearGradient id="tEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#7C3AED" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#00F7FF" stop-opacity="1"/>
+      <stop offset="0.8" stop-color="#A855F7" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D1117" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0D1117" stop-opacity="1"/>
+    </linearGradient>
+
+    <clipPath id="tClip">
+      <rect x="242" y="6" width="886" height="84"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0" y="4" width="1200" height="88" rx="12" fill="url(#tBg)" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="0" y="4" width="1200" height="2" fill="url(#tEdge)"/>
+
+  <!-- static label -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="20" y="30" width="212" height="38" rx="8" fill="#7C3AED" fill-opacity="0.18" stroke="#7C3AED" stroke-opacity="0.55"/>
+    <circle cx="42" cy="49" r="4.5" fill="#A855F7">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="4.5;6.5;4.5" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="58" y="54" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#E6EDF3">LEARNING &amp; EXPLORING</text>
+  </g>
+
+  <!-- scrolling marquee -->
+  <g clip-path="url(#tClip)">
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+       font-size="16" font-weight="600" letter-spacing="1.8" fill="#8B949E">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; -1540 0" dur="24s" repeatCount="indefinite"/>
+
+        <text x="330" y="55" textLength="1540" lengthAdjust="spacing">
+          GENERATIVE AI <tspan fill="#00F7FF">✦</tspan> AGENTIC AI <tspan fill="#A855F7">✦</tspan> LLM ORCHESTRATION <tspan fill="#7C3AED">✦</tspan> RAG PIPELINES <tspan fill="#00F7FF">✦</tspan> TOOL USE &amp; FUNCTION CALLING <tspan fill="#A855F7">✦</tspan> VECTOR DATABASES <tspan fill="#7C3AED">✦</tspan> PROMPT ENGINEERING <tspan fill="#00F7FF">✦</tspan>
+        </text>
+        <text x="1870" y="55" textLength="1540" lengthAdjust="spacing">
+          GENERATIVE AI <tspan fill="#00F7FF">✦</tspan> AGENTIC AI <tspan fill="#A855F7">✦</tspan> LLM ORCHESTRATION <tspan fill="#7C3AED">✦</tspan> RAG PIPELINES <tspan fill="#00F7FF">✦</tspan> TOOL USE &amp; FUNCTION CALLING <tspan fill="#A855F7">✦</tspan> VECTOR DATABASES <tspan fill="#7C3AED">✦</tspan> PROMPT ENGINEERING <tspan fill="#00F7FF">✦</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <!-- edge fades -->
+  <rect x="242" y="6" width="64" height="84" fill="url(#fadeL)"/>
+  <rect x="1064" y="6" width="64" height="84" fill="url(#fadeR)"/>
+
+  <rect x="0" y="88" width="1200" height="2" fill="url(#tEdge)" opacity="0.6"/>
+</svg>

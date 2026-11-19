@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="Footer — always learning, always building">
+  <defs>
+    <linearGradient id="fBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0E1A"/>
+      <stop offset="0.5" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#0A0E1A"/>
+    </linearGradient>
+
+    <linearGradient id="fRule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00F7FF"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+      <animate attributeName="offset" values="0;0.5;1" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="fWave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F7FF" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="fText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B949E"/>
+      <stop offset="0.5" stop-color="#00F7FF"/>
+      <stop offset="1" stop-color="#8B949E"/>
+      <animate attributeName="x1" values="-0.5;1.5" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="120" fill="url(#fBg)"/>
+
+  <!-- animated wave -->
+  <path fill="none" stroke="url(#fWave)" stroke-width="2" d="M0 40 Q75 14 150 40 T300 40 T450 40 T600 40 T750 40 T900 40 T1050 40 T1200 40">
+    <animate attributeName="d"
+             values="M0 40 Q75 14 150 40 T300 40 T450 40 T600 40 T750 40 T900 40 T1050 40 T1200 40;
+                     M0 40 Q75 66 150 40 T300 40 T450 40 T600 40 T750 40 T900 40 T1050 40 T1200 40;
+                     M0 40 Q75 14 150 40 T300 40 T450 40 T600 40 T750 40 T900 40 T1050 40 T1200 40"
+             dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- divider -->
+  <rect x="0" y="72" width="1200" height="1.5" fill="url(#fRule)"/>
+
+  <!-- closing line -->
+  <text x="600" y="102" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="14" font-weight="600" letter-spacing="3" fill="url(#fText)">
+    ALWAYS LEARNING · ALWAYS BUILDING
+  </text>
+  <text x="600" y="102" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="14" font-weight="600" letter-spacing="3" fill="#E6EDF3" opacity="0">
+    ALWAYS LEARNING · ALWAYS BUILDING
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.5;0.95;1" dur="6s" repeatCount="indefinite"/>
+  </text>
+</svg>
