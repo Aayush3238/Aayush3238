@@ -1,134 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 336" width="1200" height="336" role="img" aria-label="Aayush Kumar — Full Stack Developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 336" width="1200" height="336" role="img" aria-label="Aayush Kumar - Full Stack Developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A0E1A"/>
-      <stop offset="0.5" stop-color="#0D1117"/>
-      <stop offset="1" stop-color="#0A0E1A"/>
+      <stop offset="0" stop-color="#14110D"/>
+      <stop offset="0.5" stop-color="#1B1712"/>
+      <stop offset="1" stop-color="#14110D"/>
     </linearGradient>
 
-    <radialGradient id="orbV" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    <radialGradient id="orbA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F2A65A" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#F2A65A" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="orbC" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#00F7FF" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#00F7FF" stop-opacity="0"/>
+    <radialGradient id="orbT" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C2603A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#C2603A" stop-opacity="0"/>
     </radialGradient>
 
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+      <path d="M40 0H0V40" fill="none" stroke="#F2A65A" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
 
     <linearGradient id="shine" x1="-0.4" y1="0" x2="-0.05" y2="0">
-      <stop offset="0" stop-color="#E6EDF3"/>
-      <stop offset="0.5" stop-color="#00F7FF"/>
-      <stop offset="1" stop-color="#E6EDF3"/>
+      <stop offset="0" stop-color="#F3ECE1"/>
+      <stop offset="0.5" stop-color="#F2A65A"/>
+      <stop offset="1" stop-color="#F3ECE1"/>
       <animate attributeName="x1" values="-0.4;1.4" dur="4.5s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="-0.05;1.75" dur="4.5s" repeatCount="indefinite"/>
     </linearGradient>
 
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00F7FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#00F7FF"/>
-      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="0" stop-color="#F2A65A" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#F2A65A"/>
+      <stop offset="1" stop-color="#C2603A" stop-opacity="0"/>
     </linearGradient>
 
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.7"/>
-      <stop offset="0.5" stop-color="#00F7FF" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#A855F7" stop-opacity="0.7"/>
+      <stop offset="0" stop-color="#C2603A" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#F2A65A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#D9A05B" stop-opacity="0.6"/>
     </linearGradient>
   </defs>
 
-  <!-- substrate -->
   <rect width="1200" height="336" fill="url(#bg)"/>
   <rect width="1200" height="336" fill="url(#grid)"/>
 
-  <!-- ambient orbs -->
-  <circle cx="180" cy="40" r="230" fill="url(#orbV)">
+  <circle cx="180" cy="40" r="230" fill="url(#orbA)">
     <animate attributeName="cy" values="40;70;40" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.75;1;0.75" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="9s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1030" cy="300" r="250" fill="url(#orbC)">
+  <circle cx="1030" cy="300" r="250" fill="url(#orbT)">
     <animate attributeName="cy" values="300;268;300" dur="11s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="11s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="640" cy="330" r="180" fill="url(#orbV)" opacity="0.5">
-    <animate attributeName="opacity" values="0.3;0.65;0.3" dur="7s" repeatCount="indefinite"/>
+  <circle cx="640" cy="330" r="180" fill="url(#orbA)" opacity="0.45">
+    <animate attributeName="opacity" values="0.25;0.6;0.25" dur="7s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- drifting particles -->
-  <g fill="#00F7FF">
-    <circle cx="120" cy="270" r="2" opacity="0.8">
+  <g fill="#F2A65A">
+    <circle cx="120" cy="270" r="2" opacity="0.7">
       <animate attributeName="cy" values="270;150;270" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.12;0.75;0.12" dur="7s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="330" cy="90" r="1.6" fill="#A855F7">
+    <circle cx="330" cy="90" r="1.6" fill="#C2603A">
       <animate attributeName="cy" values="90;200;90" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;0.1;0.7" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="9s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="880" cy="70" r="2" opacity="0.6">
+    <circle cx="880" cy="70" r="2" opacity="0.55">
       <animate attributeName="cy" values="70;190;70" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.1;0.75;0.1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.65;0.1" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1090" cy="140" r="1.8" fill="#A855F7">
+    <circle cx="1090" cy="140" r="1.8" fill="#D9A05B">
       <animate attributeName="cy" values="140;60;140" dur="6.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.65;0.15;0.65" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.12;0.6" dur="6.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="700" cy="250" r="1.6" opacity="0.5">
+    <circle cx="700" cy="250" r="1.6" opacity="0.45">
       <animate attributeName="cy" values="250;160;250" dur="10s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- kicker -->
   <text x="600" y="96" text-anchor="middle"
         font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-        font-size="15" font-weight="600" letter-spacing="6" fill="#00F7FF">
+        font-size="15" font-weight="600" letter-spacing="6" fill="#F2A65A">
     &gt; FULL STACK DEVELOPER
   </text>
 
-  <!-- wordmark -->
   <text x="600" y="172" text-anchor="middle"
         font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-size="74" font-weight="800" letter-spacing="1" fill="url(#shine)">Aayush Kumar</text>
 
-  <!-- subtitle -->
   <text x="600" y="212" text-anchor="middle"
         font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-        font-size="21" fill="#8B949E">
+        font-size="21" fill="#A69885">
     MERN &amp; Next.js · Backend systems · Reliable APIs
   </text>
 
-  <!-- status pills -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
      font-size="14" font-weight="600" letter-spacing="1.6">
     <g>
-      <rect x="170" y="244" width="232" height="40" rx="20" fill="#161B22" fill-opacity="0.9" stroke="#FFFFFF" stroke-opacity="0.12"/>
-      <circle cx="192" cy="264" r="4.5" fill="#3FB950">
+      <rect x="170" y="244" width="232" height="40" rx="20" fill="#1D1913" fill-opacity="0.92" stroke="#F2A65A" stroke-opacity="0.35"/>
+      <circle cx="192" cy="264" r="4.5" fill="#7ED957">
         <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
       </circle>
-      <text x="208" y="269" fill="#E6EDF3">OPEN TO INTERNSHIPS</text>
+      <text x="208" y="269" fill="#F3ECE1">OPEN TO INTERNSHIPS</text>
     </g>
 
     <g>
-      <rect x="420" y="244" width="288" height="40" rx="20" fill="#161B22" fill-opacity="0.9" stroke="#FFFFFF" stroke-opacity="0.12"/>
-      <circle cx="442" cy="264" r="4.5" fill="#00F7FF"/>
-      <text x="458" y="269" fill="#E6EDF3">NODE.JS / REACT / NEXT.JS</text>
+      <rect x="420" y="244" width="288" height="40" rx="20" fill="#1D1913" fill-opacity="0.92" stroke="#F2A65A" stroke-opacity="0.35"/>
+      <circle cx="442" cy="264" r="4.5" fill="#F2A65A"/>
+      <text x="458" y="269" fill="#F3ECE1">NODE.JS / REACT / NEXT.JS</text>
     </g>
 
     <g>
-      <rect x="726" y="244" width="304" height="40" rx="20" fill="#161B22" fill-opacity="0.9" stroke="#00F7FF" stroke-opacity="0.55">
-        <animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3s" repeatCount="indefinite"/>
+      <rect x="726" y="244" width="304" height="40" rx="20" fill="#1D1913" fill-opacity="0.92" stroke="#F2A65A">
+        <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
       </rect>
-      <circle cx="748" cy="264" r="4.5" fill="#A855F7">
+      <circle cx="748" cy="264" r="4.5" fill="#C2603A">
         <animate attributeName="r" values="4.5;6;4.5" dur="3s" repeatCount="indefinite"/>
       </circle>
-      <text x="764" y="269" fill="#E6EDF3">LEARNING GENAI &amp; AGENTIC AI</text>
+      <text x="764" y="269" fill="#F3ECE1">LEARNING GENAI &amp; AGENTIC AI</text>
     </g>
   </g>
 
-  <!-- bottom rule -->
   <rect x="0" y="330" width="1200" height="2" fill="url(#rule)" opacity="0.9"/>
   <rect x="0" y="0" width="1200" height="2" fill="url(#edge)"/>
 </svg>

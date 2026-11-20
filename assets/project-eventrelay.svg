@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 400" width="580" height="400" role="img" aria-label="EventRelay — webhook delivery pipeline">
   <defs>
     <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#161B22" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#0D1117" stop-opacity="0.98"/>
+      <stop offset="0" stop-color="#1D1913" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#14110D" stop-opacity="0.99"/>
     </linearGradient>
 
     <linearGradient id="topEdge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00F7FF" stop-opacity="0.85"/>
-      <stop offset="0.55" stop-color="#7C3AED" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#A855F7" stop-opacity="0.12"/>
+      <stop offset="0" stop-color="#F2A65A" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#C2603A" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#D9A05B" stop-opacity="0.14"/>
     </linearGradient>
 
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00F7FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#00F7FF" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#00F7FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#F2A65A" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#F2A65A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#F2A65A" stop-opacity="0"/>
       <animate attributeName="x1" values="-1;1.4" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="-0.5;1.9" dur="5s" repeatCount="indefinite"/>
     </linearGradient>
 
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#00F7FF" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#00F7FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#F2A65A" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#F2A65A" stop-opacity="0"/>
     </radialGradient>
 
     <clipPath id="clipCard">
@@ -29,7 +29,7 @@
     </clipPath>
   </defs>
 
-  <rect x="1" y="1" width="578" height="398" rx="14" fill="url(#cardBg)" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <rect x="1" y="1" width="578" height="398" rx="14" fill="url(#cardBg)" stroke="#2E2519"/>
 
   <g clip-path="url(#clipCard)">
     <!-- ambient glow -->
@@ -42,76 +42,76 @@
 
   <!-- header -->
   <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-    <text x="28" y="56" font-size="27" font-weight="700" fill="#E6EDF3">EventRelay</text>
+    <text x="28" y="56" font-size="27" font-weight="700" fill="#F3ECE1">EventRelay</text>
     <text x="552" y="52" text-anchor="end"
           font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-          font-size="12" letter-spacing="1.4" fill="#00F7FF">01</text>
+          font-size="12" letter-spacing="1.4" fill="#F2A65A">01</text>
 
     <!-- badge -->
-    <rect x="28" y="72" width="238" height="26" rx="13" fill="#7C3AED" fill-opacity="0.16" stroke="#7C3AED" stroke-opacity="0.45"/>
-    <text x="147" y="89" text-anchor="middle" font-size="12.5" font-weight="600" fill="#C4B5FD">Webhook Delivery Pipeline</text>
+    <rect x="28" y="72" width="238" height="26" rx="13" fill="#F2A65A" fill-opacity="0.13" stroke="#F2A65A" stroke-opacity="0.45"/>
+    <text x="147" y="89" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EDB283">Webhook Delivery Pipeline</text>
   </g>
 
   <!-- description -->
-  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#9AA7B4">
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#A69885">
     <text x="28" y="132">At-least-once webhook delivery with a transactional</text>
     <text x="28" y="154">outbox and PostgreSQL SKIP LOCKED claiming — no event</text>
     <text x="28" y="176">loss during worker or Redis failures.</text>
   </g>
 
   <!-- feature bullets -->
-  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#B7C2CD">
-    <circle cx="32" cy="205" r="3" fill="#00F7FF"/>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#D6C7B0">
+    <circle cx="32" cy="205" r="3" fill="#F2A65A"/>
     <text x="46" y="210">Idempotent ingestion &amp; lease-based worker claiming</text>
-    <circle cx="32" cy="233" r="3" fill="#00F7FF"/>
+    <circle cx="32" cy="233" r="3" fill="#F2A65A"/>
     <text x="46" y="238">SSRF / DNS-rebinding protection + HMAC-SHA256 signing</text>
-    <circle cx="32" cy="261" r="3" fill="#00F7FF"/>
+    <circle cx="32" cy="261" r="3" fill="#F2A65A"/>
     <text x="46" y="266">Exponential-backoff retries, crash recovery, CI tests</text>
   </g>
 
   <!-- tech chips -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="0.6">
     <g>
-      <rect x="28" y="292" width="70" height="26" rx="6" fill="#0D1117" stroke="#FFFFFF" stroke-opacity="0.12"/>
-      <text x="63" y="309" text-anchor="middle" fill="#8B949E">Node.js</text>
+      <rect x="28" y="292" width="70" height="26" rx="6" fill="#1D1913" stroke="#302819"/>
+      <text x="63" y="309" text-anchor="middle" fill="#9C8E7C">Node.js</text>
     </g>
     <g>
-      <rect x="106" y="292" width="70" height="26" rx="6" fill="#0D1117" stroke="#FFFFFF" stroke-opacity="0.12"/>
-      <text x="141" y="309" text-anchor="middle" fill="#8B949E">Express</text>
+      <rect x="106" y="292" width="70" height="26" rx="6" fill="#1D1913" stroke="#302819"/>
+      <text x="141" y="309" text-anchor="middle" fill="#9C8E7C">Express</text>
     </g>
     <g>
-      <rect x="184" y="292" width="90" height="26" rx="6" fill="#0D1117" stroke="#FFFFFF" stroke-opacity="0.12"/>
-      <text x="229" y="309" text-anchor="middle" fill="#8B949E">PostgreSQL</text>
+      <rect x="184" y="292" width="90" height="26" rx="6" fill="#1D1913" stroke="#302819"/>
+      <text x="229" y="309" text-anchor="middle" fill="#9C8E7C">PostgreSQL</text>
     </g>
     <g>
-      <rect x="282" y="292" width="62" height="26" rx="6" fill="#0D1117" stroke="#FFFFFF" stroke-opacity="0.12"/>
-      <text x="313" y="309" text-anchor="middle" fill="#8B949E">Redis</text>
+      <rect x="282" y="292" width="62" height="26" rx="6" fill="#1D1913" stroke="#302819"/>
+      <text x="313" y="309" text-anchor="middle" fill="#9C8E7C">Redis</text>
     </g>
     <g>
-      <rect x="352" y="292" width="72" height="26" rx="6" fill="#0D1117" stroke="#FFFFFF" stroke-opacity="0.12"/>
-      <text x="388" y="309" text-anchor="middle" fill="#8B949E">BullMQ</text>
+      <rect x="352" y="292" width="72" height="26" rx="6" fill="#1D1913" stroke="#302819"/>
+      <text x="388" y="309" text-anchor="middle" fill="#9C8E7C">BullMQ</text>
     </g>
   </g>
 
   <!-- divider -->
-  <rect x="28" y="338" width="524" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="28" y="338" width="524" height="1" fill="#2E2519"/>
 
   <!-- actions -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">
     <g>
-      <rect x="28" y="354" width="106" height="32" rx="8" fill="#00F7FF" fill-opacity="0.12" stroke="#00F7FF" stroke-opacity="0.55"/>
-      <text x="81" y="375" text-anchor="middle" fill="#00F7FF">GitHub ↗</text>
+      <rect x="28" y="354" width="106" height="32" rx="8" fill="#F2A65A" fill-opacity="0.12" stroke="#F2A65A" stroke-opacity="0.55"/>
+      <text x="81" y="375" text-anchor="middle" fill="#F2A65A">GitHub ↗</text>
     </g>
     <g>
-      <rect x="144" y="354" width="80" height="32" rx="8" fill="transparent" stroke="#A855F7" stroke-opacity="0.5"/>
-      <circle cx="164" cy="370" r="3.5" fill="#A855F7">
+      <rect x="144" y="354" width="80" height="32" rx="8" fill="transparent" stroke="#7ED957" stroke-opacity="0.45"/>
+      <circle cx="164" cy="370" r="3.5" fill="#7ED957">
         <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
       </circle>
-      <text x="190" y="375" text-anchor="middle" fill="#D2B8FF">Live</text>
+      <text x="190" y="375" text-anchor="middle" fill="#A8E58F">Live</text>
     </g>
   </g>
 
   <text x="552" y="375" text-anchor="end"
         font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-        font-size="11.5" letter-spacing="1.2" fill="#59636E">DELIVERY · AT-LEAST-ONCE</text>
+        font-size="11.5" letter-spacing="1.2" fill="#7A6A56">DELIVERY · AT-LEAST-ONCE</text>
 </svg>

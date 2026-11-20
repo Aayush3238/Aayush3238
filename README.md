@@ -5,32 +5,16 @@
 <h2 align="center">About</h2>
 
 <p align="center">
-  Full Stack Developer building scalable web applications with the MERN stack and Next.js.
-  I care about backend engineering, distributed systems, API design and writing software that
-  stays reliable under failure — transactional outboxes, idempotency, caching and careful
-  concurrency handling are the problems I enjoy most.
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,mongodb,postgresql,redis,tailwind" alt="Tech stack" />
+  Full Stack Developer building web apps with the MERN stack and Next.js.
+  I care about the backend — APIs that stay reliable under failure, smart caching,
+  idempotency and concurrency.
 </p>
 
 <h2 align="center">Experience</h2>
 
-<table align="center">
-  <tr>
-    <td>
-      <b>Software Developer Intern</b> &nbsp;·&nbsp; Nexera &nbsp;·&nbsp; Remote &nbsp;·&nbsp; Feb 2026 – Present
-      <ul>
-        <li>Developed a scalable full-stack learning platform with React.js, Next.js, Node.js, Express.js and PostgreSQL.</li>
-        <li>Implemented secure Google OAuth authentication with session management for seamless user login and access control.</li>
-        <li>Built backend APIs and frontend workflows for the course doubt management system connecting students and mentors.</li>
-        <li>Added Redis caching for the active student count, cutting repeated database queries and improving response times.</li>
-        <li>Shipped responsive UI components and admin functionality for platform content and user operations.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <b>Full Stack Developer</b> &nbsp;·&nbsp; Nexera
+</p>
 
 <h2 align="center">Featured Projects</h2>
 
@@ -44,11 +28,11 @@
   </a>
 </div>
 
-<div align="center">
-  <a href="https://event-relay-brown.vercel.app"><img src="https://img.shields.io/badge/Live-EventRelay-00F7FF?style=flat-square&labelColor=0D1117" alt="EventRelay live" /></a>
+<p align="center">
+  <a href="https://event-relay-brown.vercel.app"><img src="https://img.shields.io/badge/Live-EventRelay-F2A65A?style=flat-square&labelColor=14110D" alt="EventRelay live" /></a>
   &nbsp;
-  <a href="https://pixel-flow-ashy.vercel.app/dashboard"><img src="https://img.shields.io/badge/Live-PixelFlow-A855F7?style=flat-square&labelColor=0D1117" alt="PixelFlow live" /></a>
-</div>
+  <a href="https://pixel-flow-ashy.vercel.app/dashboard"><img src="https://img.shields.io/badge/Live-PixelFlow-C2603A?style=flat-square&labelColor=14110D" alt="PixelFlow live" /></a>
+</p>
 
 <h2 align="center">Now Learning</h2>
 
@@ -57,8 +41,8 @@
 </div>
 
 <p align="center">
-  Moving beyond classic web development into <b>Generative AI</b> and <b>Agentic AI</b> —
-  LLM orchestration, tool use, RAG pipelines and agents that actually do work.
+  Moving from classic web dev into <b>Generative AI</b> and <b>Agentic AI</b> —
+  LLM orchestration, tool use and RAG pipelines.
 </p>
 
 <h2 align="center">Tech Stack</h2>
@@ -86,7 +70,7 @@
 
 <p align="center">
   <a href="https://github.com/Aayush3238" target="_blank">
-    <img src="https://cdn.simpleicons.org/github/E6EDF3" height="38" alt="GitHub" />
+    <img src="https://cdn.simpleicons.org/github/8B949E" height="38" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/aayush-kumar-0b17a1316/" target="_blank">
@@ -106,7 +90,7 @@
   </a>
   &nbsp;&nbsp;
   <a href="https://drive.google.com/file/d/1Ip4gCA7KP4E77PxuVwQdsXBmxl3OFeZu/view?usp=sharing" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-Download-E6EDF3?style=flat-square&logo=googledrive&logoColor=white&labelColor=0D1117" height="38" alt="Resume" />
+    <img src="https://img.shields.io/badge/Resume-Download-F2A65A?style=flat-square&labelColor=14110D&logo=googledrive&logoColor=14110D" height="38" alt="Resume" />
   </a>
 </p>
 
