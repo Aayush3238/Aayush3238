@@ -110,17 +110,19 @@
   </a>
 </p>
 
-<h2 align="center">Contribution Activity</h2>
+<h2 align="center">Contributions</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aayush3238&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF" width="95%" alt="Activity graph" />
+  <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/output/github-contribution-grid-snake-dark.svg" alt="Snake eating my contributions" width="95%" />
 </p>
 
-<h2 align="center">Contribution Calendar</h2>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/github-metrics.svg" width="95%" alt="GitHub metrics" />
-</p>
+<details>
+  <summary><b>Contribution stats</b></summary>
+  <br />
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/github-metrics.svg" width="95%" alt="GitHub metrics" />
+  </p>
+</details>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Aayush3238/Aayush3238/main/assets/footer.svg" alt="Always learning, always building" width="100%" />
