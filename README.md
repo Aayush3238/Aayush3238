@@ -29,9 +29,9 @@
 </div>
 
 <p align="center">
-  <a href="https://event-relay-brown.vercel.app"><img src="https://img.shields.io/badge/Live-EventRelay-F2A65A?style=flat-square&labelColor=14110D" alt="EventRelay live" /></a>
+  <a href="https://event-relay-brown.vercel.app"><img src="https://img.shields.io/badge/Live-EventRelay-D98E9C?style=flat-square&labelColor=151016" alt="EventRelay live" /></a>
   &nbsp;
-  <a href="https://pixel-flow-ashy.vercel.app/dashboard"><img src="https://img.shields.io/badge/Live-PixelFlow-C2603A?style=flat-square&labelColor=14110D" alt="PixelFlow live" /></a>
+  <a href="https://pixel-flow-ashy.vercel.app/dashboard"><img src="https://img.shields.io/badge/Live-PixelFlow-CBAE7B?style=flat-square&labelColor=151016" alt="PixelFlow live" /></a>
 </p>
 
 <h2 align="center">Now Learning</h2>
@@ -90,7 +90,7 @@
   </a>
   &nbsp;&nbsp;
   <a href="https://drive.google.com/file/d/1Ip4gCA7KP4E77PxuVwQdsXBmxl3OFeZu/view?usp=sharing" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-Download-F2A65A?style=flat-square&labelColor=14110D&logo=googledrive&logoColor=14110D" height="38" alt="Resume" />
+    <img src="https://img.shields.io/badge/Resume-Download-D98E9C?style=flat-square&labelColor=151016&logo=googledrive&logoColor=151016" height="38" alt="Resume" />
   </a>
 </p>
 

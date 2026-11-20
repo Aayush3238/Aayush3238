@@ -21,7 +21,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#E0662E&color_dots=#1B1712,#4A3826,#8A6636,#C9944A,#F2A65A
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F0E8EE&color_dots=#201821,#4A3040,#7A4A60,#B0708C,#D98E9C
 
       - name: Publish to output branch
         run: |

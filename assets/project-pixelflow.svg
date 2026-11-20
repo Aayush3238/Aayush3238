@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 400" width="580" height="400" role="img" aria-label="PixelFlow — adaptive image delivery platform">
   <defs>
     <linearGradient id="pCardBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1D1913" stop-opacity="0.96"/>
-      <stop offset="1" stop-color="#14110D" stop-opacity="0.99"/>
+      <stop offset="0" stop-color="#201821" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#151016" stop-opacity="0.99"/>
     </linearGradient>
 
     <linearGradient id="pTopEdge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C2603A" stop-opacity="0.85"/>
-      <stop offset="0.55" stop-color="#D9A05B" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#F2A65A" stop-opacity="0.14"/>
+      <stop offset="0" stop-color="#CBAE7B" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#E0CBA0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#D98E9C" stop-opacity="0.16"/>
     </linearGradient>
 
     <linearGradient id="pSweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C2603A" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#C2603A" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#C2603A" stop-opacity="0"/>
+      <stop offset="0" stop-color="#CBAE7B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#CBAE7B" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#CBAE7B" stop-opacity="0"/>
       <animate attributeName="x1" values="-1;1.4" dur="5.6s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="-0.5;1.9" dur="5.6s" repeatCount="indefinite"/>
     </linearGradient>
 
     <radialGradient id="pGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#C2603A" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#C2603A" stop-opacity="0"/>
+      <stop offset="0" stop-color="#CBAE7B" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#CBAE7B" stop-opacity="0"/>
     </radialGradient>
 
     <clipPath id="pClipCard">
@@ -29,7 +29,7 @@
     </clipPath>
   </defs>
 
-  <rect x="1" y="1" width="578" height="398" rx="14" fill="url(#pCardBg)" stroke="#2E2519"/>
+  <rect x="1" y="1" width="578" height="398" rx="14" fill="url(#pCardBg)" stroke="#332634"/>
 
   <g clip-path="url(#pClipCard)">
     <circle cx="510" cy="30" r="150" fill="url(#pGlow)"/>
@@ -39,60 +39,60 @@
 
   <!-- header -->
   <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-    <text x="28" y="56" font-size="27" font-weight="700" fill="#F3ECE1">PixelFlow</text>
+    <text x="28" y="56" font-size="27" font-weight="700" fill="#F0E8EE">PixelFlow</text>
     <text x="552" y="52" text-anchor="end"
           font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-          font-size="12" letter-spacing="1.4" fill="#E08A5F">02</text>
+          font-size="12" letter-spacing="1.4" fill="#E0CBA0">02</text>
 
-    <rect x="28" y="72" width="228" height="26" rx="13" fill="#C2603A" fill-opacity="0.15" stroke="#C2603A" stroke-opacity="0.5"/>
-    <text x="142" y="89" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EFA985">Adaptive Image Delivery</text>
+    <rect x="28" y="72" width="228" height="26" rx="13" fill="#CBAE7B" fill-opacity="0.14" stroke="#CBAE7B" stroke-opacity="0.5"/>
+    <text x="142" y="89" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EAD8AC">Adaptive Image Delivery</text>
   </g>
 
   <!-- description -->
-  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#A69885">
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#9A8C99">
     <text x="28" y="132">Adaptive image delivery with on-demand transforms,</text>
     <text x="28" y="154">responsive resizing and format negotiation driven</text>
     <text x="28" y="176">by Sharp.</text>
   </g>
 
   <!-- feature bullets -->
-  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#D6C7B0">
-    <circle cx="32" cy="205" r="3" fill="#C2603A"/>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#D8C9D2">
+    <circle cx="32" cy="205" r="3" fill="#CBAE7B"/>
     <text x="46" y="210">Redis-backed caching pipeline with object storage</text>
-    <circle cx="32" cy="233" r="3" fill="#C2603A"/>
+    <circle cx="32" cy="233" r="3" fill="#CBAE7B"/>
     <text x="46" y="238">Secure REST APIs — JWT, API keys, rate limiting</text>
-    <circle cx="32" cy="261" r="3" fill="#C2603A"/>
+    <circle cx="32" cy="261" r="3" fill="#CBAE7B"/>
     <text x="46" y="266">Input validation across the full upload path</text>
   </g>
 
   <!-- tech chips -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="0.6">
     <g>
-      <rect x="28" y="292" width="62" height="26" rx="6" fill="#1D1913" stroke="#302819"/>
-      <text x="59" y="309" text-anchor="middle" fill="#9C8E7C">React</text>
+      <rect x="28" y="292" width="62" height="26" rx="6" fill="#201821" stroke="#3A2B3C"/>
+      <text x="59" y="309" text-anchor="middle" fill="#9A8C99">React</text>
     </g>
     <g>
-      <rect x="98" y="292" width="70" height="26" rx="6" fill="#1D1913" stroke="#302819"/>
-      <text x="133" y="309" text-anchor="middle" fill="#9C8E7C">Express</text>
+      <rect x="98" y="292" width="70" height="26" rx="6" fill="#201821" stroke="#3A2B3C"/>
+      <text x="133" y="309" text-anchor="middle" fill="#9A8C99">Express</text>
     </g>
     <g>
-      <rect x="176" y="292" width="62" height="26" rx="6" fill="#1D1913" stroke="#302819"/>
-      <text x="207" y="309" text-anchor="middle" fill="#9C8E7C">Redis</text>
+      <rect x="176" y="292" width="62" height="26" rx="6" fill="#201821" stroke="#3A2B3C"/>
+      <text x="207" y="309" text-anchor="middle" fill="#9A8C99">Redis</text>
     </g>
     <g>
-      <rect x="246" y="292" width="62" height="26" rx="6" fill="#1D1913" stroke="#302819"/>
-      <text x="277" y="309" text-anchor="middle" fill="#9C8E7C">Sharp</text>
+      <rect x="246" y="292" width="62" height="26" rx="6" fill="#201821" stroke="#3A2B3C"/>
+      <text x="277" y="309" text-anchor="middle" fill="#9A8C99">Sharp</text>
     </g>
   </g>
 
   <!-- divider -->
-  <rect x="28" y="338" width="524" height="1" fill="#2E2519"/>
+  <rect x="28" y="338" width="524" height="1" fill="#332634"/>
 
   <!-- actions -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">
     <g>
-      <rect x="28" y="354" width="106" height="32" rx="8" fill="#C2603A" fill-opacity="0.14" stroke="#C2603A" stroke-opacity="0.6"/>
-      <text x="81" y="375" text-anchor="middle" fill="#E08A5F">GitHub ↗</text>
+      <rect x="28" y="354" width="106" height="32" rx="8" fill="#CBAE7B" fill-opacity="0.14" stroke="#CBAE7B" stroke-opacity="0.6"/>
+      <text x="81" y="375" text-anchor="middle" fill="#E0CBA0">GitHub ↗</text>
     </g>
     <g>
       <rect x="144" y="354" width="80" height="32" rx="8" fill="transparent" stroke="#7ED957" stroke-opacity="0.45"/>
@@ -105,5 +105,5 @@
 
   <text x="552" y="375" text-anchor="end"
         font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-        font-size="11.5" letter-spacing="1.2" fill="#7A6A56">IMAGES · ON-DEMAND</text>
+        font-size="11.5" letter-spacing="1.2" fill="#7A6E7C">IMAGES · ON-DEMAND</text>
 </svg>

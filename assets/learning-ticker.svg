@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Currently learning Generative AI and Agentic AI">
   <defs>
     <linearGradient id="tBg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#14110D"/>
-      <stop offset="0.5" stop-color="#1D1913"/>
-      <stop offset="1" stop-color="#14110D"/>
+      <stop offset="0" stop-color="#151016"/>
+      <stop offset="0.5" stop-color="#201821"/>
+      <stop offset="1" stop-color="#151016"/>
     </linearGradient>
 
     <linearGradient id="tEdge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C2603A" stop-opacity="0"/>
-      <stop offset="0.2" stop-color="#C2603A" stop-opacity="0.9"/>
-      <stop offset="0.5" stop-color="#F2A65A" stop-opacity="1"/>
-      <stop offset="0.8" stop-color="#D9A05B" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#C2603A" stop-opacity="0"/>
+      <stop offset="0" stop-color="#C2798F" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#C2798F" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#D98E9C" stop-opacity="1"/>
+      <stop offset="0.8" stop-color="#E8BFC9" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#C2798F" stop-opacity="0"/>
     </linearGradient>
 
     <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#14110D" stop-opacity="1"/>
-      <stop offset="1" stop-color="#14110D" stop-opacity="0"/>
+      <stop offset="0" stop-color="#151016" stop-opacity="1"/>
+      <stop offset="1" stop-color="#151016" stop-opacity="0"/>
     </linearGradient>
 
     <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#14110D" stop-opacity="0"/>
-      <stop offset="1" stop-color="#14110D" stop-opacity="1"/>
+      <stop offset="0" stop-color="#151016" stop-opacity="0"/>
+      <stop offset="1" stop-color="#151016" stop-opacity="1"/>
     </linearGradient>
 
     <clipPath id="tClip">
@@ -29,32 +29,32 @@
     </clipPath>
   </defs>
 
-  <rect x="0" y="4" width="1200" height="88" rx="12" fill="url(#tBg)" stroke="#2E2519"/>
+  <rect x="0" y="4" width="1200" height="88" rx="12" fill="url(#tBg)" stroke="#332634"/>
   <rect x="0" y="4" width="1200" height="2" fill="url(#tEdge)"/>
 
   <!-- static label -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <rect x="20" y="30" width="212" height="38" rx="8" fill="#C2603A" fill-opacity="0.17" stroke="#C2603A" stroke-opacity="0.55"/>
-    <circle cx="42" cy="49" r="4.5" fill="#F2A65A">
+    <rect x="20" y="30" width="212" height="38" rx="8" fill="#C2798F" fill-opacity="0.17" stroke="#C2798F" stroke-opacity="0.55"/>
+    <circle cx="42" cy="49" r="4.5" fill="#D98E9C">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.5s" repeatCount="indefinite"/>
       <animate attributeName="r" values="4.5;6.5;4.5" dur="1.5s" repeatCount="indefinite"/>
     </circle>
-    <text x="58" y="54" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#F3ECE1">LEARNING &amp; EXPLORING</text>
+    <text x="58" y="54" font-size="12.5" font-weight="700" letter-spacing="1.5" fill="#F0E8EE">LEARNING &amp; EXPLORING</text>
   </g>
 
   <!-- scrolling marquee -->
   <g clip-path="url(#tClip)">
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-       font-size="16" font-weight="600" letter-spacing="1.8" fill="#A69885">
+       font-size="16" font-weight="600" letter-spacing="1.8" fill="#9A8C99">
       <g>
         <animateTransform attributeName="transform" type="translate"
                           values="0 0; -1540 0" dur="24s" repeatCount="indefinite"/>
 
         <text x="330" y="55" textLength="1540" lengthAdjust="spacing">
-          GENERATIVE AI <tspan fill="#F2A65A">✦</tspan> AGENTIC AI <tspan fill="#C2603A">✦</tspan> LLM ORCHESTRATION <tspan fill="#D9A05B">✦</tspan> RAG PIPELINES <tspan fill="#F2A65A">✦</tspan> TOOL USE &amp; FUNCTION CALLING <tspan fill="#C2603A">✦</tspan> VECTOR DATABASES <tspan fill="#D9A05B">✦</tspan> PROMPT ENGINEERING <tspan fill="#F2A65A">✦</tspan>
+          GENERATIVE AI <tspan fill="#D98E9C">✦</tspan> AGENTIC AI <tspan fill="#C2798F">✦</tspan> LLM ORCHESTRATION <tspan fill="#E8BFC9">✦</tspan> RAG PIPELINES <tspan fill="#D98E9C">✦</tspan> TOOL USE &amp; FUNCTION CALLING <tspan fill="#C2798F">✦</tspan> VECTOR DATABASES <tspan fill="#E8BFC9">✦</tspan> PROMPT ENGINEERING <tspan fill="#D98E9C">✦</tspan>
         </text>
         <text x="1870" y="55" textLength="1540" lengthAdjust="spacing">
-          GENERATIVE AI <tspan fill="#F2A65A">✦</tspan> AGENTIC AI <tspan fill="#C2603A">✦</tspan> LLM ORCHESTRATION <tspan fill="#D9A05B">✦</tspan> RAG PIPELINES <tspan fill="#F2A65A">✦</tspan> TOOL USE &amp; FUNCTION CALLING <tspan fill="#C2603A">✦</tspan> VECTOR DATABASES <tspan fill="#D9A05B">✦</tspan> PROMPT ENGINEERING <tspan fill="#F2A65A">✦</tspan>
+          GENERATIVE AI <tspan fill="#D98E9C">✦</tspan> AGENTIC AI <tspan fill="#C2798F">✦</tspan> LLM ORCHESTRATION <tspan fill="#E8BFC9">✦</tspan> RAG PIPELINES <tspan fill="#D98E9C">✦</tspan> TOOL USE &amp; FUNCTION CALLING <tspan fill="#C2798F">✦</tspan> VECTOR DATABASES <tspan fill="#E8BFC9">✦</tspan> PROMPT ENGINEERING <tspan fill="#D98E9C">✦</tspan>
         </text>
       </g>
     </g>
